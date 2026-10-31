@@ -1,0 +1,83 @@
+
+body {
+    background-color: yellow;
+}
+
+/* Whole face */
+.face {
+    width: 780px;
+    height: 1000px;
+    background-color: yellow;
+    margin: 30px auto;
+}
+
+/* Eyes */
+.eyes {
+    text-align: center;
+}
+
+.eye {
+    display: inline-block;
+    width: 355px;
+    height: 355px;
+    background-color: white;
+    margin: 0 10px;
+    position: relative;
+}
+
+/* Black pupils */
+.pupil {
+    width: 140px;
+    height: 140px;
+    background-color: black;
+    position: absolute;
+    top: 70px;
+    left: 70px;
+}
+
+/* Mouth */
+.mouth {
+    width: 780px;
+    height: 565px;
+    background-color: black;
+    margin-top: 70px;
+    position: relative;
+    text-align: center;
+}
+
+/* Teeth */
+.teeth {
+    padding-top: 65px;
+}
+
+.tooth {
+    display: inline-block;
+    width: 70px;
+    height: 72px;
+    background-color: white;
+    margin: 0 8px;
+}
+
+/* Red tongue */
+.tongue {
+    width: 355px;
+    height: 250px;
+    background-color: red;
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.tongue::after {
+    content: "";
+    width: 25px;
+    height: 195px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
